@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  height: 100vh;
+  width: calc(100vw - 5em);
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.card-button {
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.card-button-save {
+  background-color: rgb(94, 238, 11);
+  color: white;
+  border: none;
+  padding: 10px 28px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.item {
+  flex: 1;
+  margin: 5px;
+  text-align: center;
+  font-size: 1.5em;
+}

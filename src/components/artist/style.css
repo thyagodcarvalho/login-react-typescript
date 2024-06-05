@@ -1,0 +1,12 @@
+.container-artist {
+  justify-content: center;
+  height: 60%;
+  overflow-x: auto;
+  padding: 2em;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+}
